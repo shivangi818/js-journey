@@ -1,0 +1,7 @@
+it is a special obj that has details about the event .
+all the event handlers have access to the event objects properties and methods.
+
+node.event=(e)=>{
+    //handle here
+}
+e.target, e.type,e.clientX,e.clientY
